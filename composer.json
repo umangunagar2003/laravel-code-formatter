@@ -1,36 +1,37 @@
-{
-    "name": "umangunagar/laravel-code-formatter",
-    "description": "A simple package to format PHP & Blade files in a Laravel project using Prettier",
-    "type": "library",
-    "license": "MIT",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
-    "autoload": {
-        "psr-4": {
-            "Umang\\LaravelCodeFormatter\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Umang Unagar",
-            "email": "unagarumang2003@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^8.0",
-        "laravel/framework": ">=9.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Umang\\LaravelCodeFormatter\\LaravelCodeFormatterServiceProvider"
-            ]
-        }
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "packages/umang/laravel-code-formatter"
-        }
-    ]
-}
+    {
+        "name": "umangunagar/laravel-code-formatter",
+        "description": "A simple package to format PHP & Blade files in a Laravel project using Prettier",
+        "type": "library",
+        "license": "MIT",
+        "version": "1.0.0",
+        "minimum-stability": "stable",
+        "prefer-stable": true,
+        "autoload": {
+            "psr-4": {
+                "Umang\\LaravelCodeFormatter\\": "src/"
+            }
+        },
+        "authors": [
+            {
+                "name": "Umang Unagar",
+                "email": "unagarumang2003@gmail.com"
+            }
+        ],
+        "require": {
+            "php": "^8.0",
+            "laravel/framework": ">=9.0"
+        },
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Umang\\LaravelCodeFormatter\\LaravelCodeFormatterServiceProvider"
+                ]
+            }
+        },
+        "repositories": [
+            {
+                "type": "path",
+                "url": "packages/umang/laravel-code-formatter"
+            }
+        ]
+    }
